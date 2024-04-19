@@ -980,4 +980,10 @@ a:focus {
 .footer_section p a {
   color: inherit;
 }
+
+.poster{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /*# sourceMappingURL=style.css.map */
