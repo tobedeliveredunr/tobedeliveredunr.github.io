@@ -408,8 +408,6 @@ a:focus {
         text-transform: uppercase;
       }
 
-      p {}
-
       a {
         color: $primary2;
         font-weight: 600;
@@ -538,6 +536,7 @@ a:focus {
 
   .team_container {
     padding: 0 15px;
+    justify-content: center;
 
     .box {
       padding: 35px 0 0 0;

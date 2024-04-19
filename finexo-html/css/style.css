@@ -286,7 +286,7 @@ a:focus {
 
 .slider_section .detail-box p {
   color: #fefefe;
-  font-size: 14px;
+  font-size: 24px;
 }
 
 .slider_section .detail-box .btn-box {
@@ -525,6 +525,61 @@ a:focus {
   background-color: #007fa4;
 }
 
+.whychoose_section {
+  background-color: #00204a;
+  color: #ffffff;
+}
+
+.whychoose_section .box {
+  margin-top: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.whychoose_section .box .img-box {
+  margin-bottom: 20px;
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  min-height: 120px;
+  border-radius: 100%;
+  border: 5px solid #00bbf0;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.whychoose_section .box .img-box img {
+  width: 55px;
+  height: auto;
+  fill: #00204a;
+}
+
+.whychoose_section .box h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.whychoose_section .box p {
+  margin-bottom: 0;
+}
+
 .why_section .box {
   margin-top: 45px;
   display: -webkit-box;
@@ -641,8 +696,6 @@ a:focus {
 
 .team_section .team_container .box .img-box img {
   width: 120px;
-  border-radius: 100%;
-  border: 5px solid #ffffff;
 }
 
 .team_section .team_container .box .detail-box {
