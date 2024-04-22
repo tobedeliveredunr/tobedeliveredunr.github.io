@@ -510,7 +510,6 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  resize: both;
 }
 
 .about_section .detail-box h3 {
