@@ -499,8 +499,8 @@ a:focus {
 
 .about_section .box {
   margin-top: 45px;
-  max-width: 1280px;
-  max-height: 720px;
+  width: 1280px;
+  height: 720px;
   min-width: 854px;
   min-height: 480px;
   display: -webkit-box;
