@@ -513,8 +513,10 @@ a:focus {
   height: auto;
 }
 
-.about_section .img-box img {
+.about_section .box iframe {
   max-width: 100%;
+  min-width: 120px;
+  min-height:120px;
 }
 
 .about_section .detail-box h3 {
